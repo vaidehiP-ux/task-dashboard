@@ -1,0 +1,45 @@
+.user-container {
+    background-color: white;
+    height: 275px;
+    .card {
+        .card-header {
+            text-align: left;
+            font: normal normal 600 13px/16px Gibson;
+            letter-spacing: 0px;
+            color: #80899B;
+            text-transform: uppercase;
+            opacity: 1;
+            font-size: 13px;
+        }
+        .img-wrapper {
+            display: inline-block;
+            .user {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                margin: 8px;
+                object-fit: cover;
+              }
+        }
+        .user-wrapper {
+            display: inline-block;
+            .name {
+                text-align: left;
+                font: normal normal 300 24px/22px Gibson;
+                letter-spacing: 0px;
+                color: #495365;
+                opacity: 1;
+                font-size: 24px;
+            }
+            .email {
+                text-align: left;
+                font: normal normal bold 10px/13px Roboto;
+                letter-spacing: 0px;
+                color: #80899B;
+                opacity: 1;
+                font-size: 10px;
+            }
+        }
+    }
+    
+}

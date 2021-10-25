@@ -1,0 +1,34 @@
+<div class="card px-3">
+    <h5 class="card-header">COMMENTS <span class="badge bg-secondary"><i class="fas fa-tasks pe-2"></i>{{taskComments.length}}</span>
+    </h5> 
+    <div class="card-body">
+      <form>
+        <!-- future scope -->
+        <!-- <div class="form-group col py-0 my-2">
+          <label for="inputTaskNumber">Select Task number to view related comments</label>
+          <select id="inputTaskNumber" class="form-control" >
+            <option selected>Task Number</option>
+            <option>...</option>
+          </select>
+        </div> -->
+        <input class="form-control " type="text" placeholder="Add Comment...." aria-label="default input example">
+      </form>
+      <div *ngFor="let comment of taskComments">
+        <div class="row">
+          <div class="col-md-1 mx-3">
+            <div class="img-wrapper">
+              <img [src]="comment.profileImage" class="user">
+            </div>
+          </div>
+          <div class="col-md-10">
+            <div class="comment-wrapper py-3">
+              <h5 class="card-title name">{{comment.creatorName}}</h5>
+              <h6 class="card-subtitle mb-2 text-muted date">{{comment.creationDate}}</h6>
+              <div class="description">{{comment.commentDescription}}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <button (click)="sendCommentID(taskComments[0].commentID)">clickme</button> -->
+    </div>
+  </div>

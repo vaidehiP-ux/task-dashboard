@@ -25,3 +25,24 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## current implementation
+ 1. Technologies
+    Bootstrap - layout and UI styling
+    Font-awesome - icons
+    ngx-charts - chats and tables
+ 2. Models: Users, Tasks, Comments 
+        => User for identification
+        => idea I have a task enclossing asset which has comments embeded init
+ 3. Tab layout for navigation.
+ 4. Data loaded from API => JSON schema 
+ 5. Data sharing based on parent-child
+
+## Future Scope
+
+ 1. User variables for colors and apply theming
+ 2. Implement Authentication and authorization for secure login and role based access
+ 3. Later apply data sharing based on Behavior subject for unrelateed components
+ 4. Status pick values from a predefined ENUM for key-results table
+ 5. Enable routes for better identification and secure access
+ 6. Enable comment input and add the added comment in the list.

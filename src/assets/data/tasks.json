@@ -1,0 +1,158 @@
+[
+    {
+        "taskID": "TD101",
+        "taskDescription": "We achieved a sales growth in Power Management \u000bApplications globally from 65 Mio. € in 2019 to 128 Mio. € in 2024",
+        "status": "On Track",
+        "progress": "50",
+        "ownerId": 1,
+        "assigneeID": 6,
+        "comments": [
+          {
+            "commentID": "COMM101",
+            "commentDescription": "The assumption is that we have the technology, the Know-How and the Solutions needed more or less \u000balready available to gain customer value for Tier1-Customers. We need to clarify this first thing when.",
+            "creatorName": "Felicia Baumgartner",
+            "creationDate": "2021-10-21T19:10:28+00:00",
+            "profileImage": "https://picsum.photos/id/1005/200/300",
+            "taskID": "TD101"
+          },
+          {
+            "commentID": "COMM102",
+            "commentDescription": "We reconfigured and applied already existing Technology Portfolio within CTG Group successfully \u000bto enlarge our addressable.",
+            "creatorName": "Felicia Baumgartner",
+            "creationDate": "2021-10-21T19:13:05+0000",
+            "profileImage": "https://picsum.photos/id/1005/200/300",
+            "taskID": "TD101"
+          }
+        ]
+      },
+      {
+        "taskID": "TD102",
+        "taskDescription": "WWe reconfigured and applied already existing Technology \u000bPortfolio within CTG Group successfully to enlarge our addressable.",
+        "status": "On Track",
+        "progress": "50",
+        "ownerId": 2,
+        "assigneeID": 6,
+        "comments": [
+          {
+            "commentID": "COMM101",
+            "commentDescription": "The assumption is that we have the technology, the Know-How and the Solutions needed more or less \u000balready available to gain customer value for Tier1-Customers. We need to clarify this first thing when.",
+            "creatorName": "Hermoinie Granger",
+            "creationDate": "2021-10-21T19:10:28+00:00",
+            "profileImage": "https://picsum.photos/id/1005/200/300",
+            "taskID": "TD102"
+          },
+          {
+            "commentID": "COMM102",
+            "commentDescription": "We reconfigured and applied already existing Technology Portfolio within CTG Group successfully \u000bto enlarge our addressable.",
+            "creatorName": "Felicia Baumgartner",
+            "creationDate": "2021-10-21T19:13:05+0000",
+            "profileImage": "https://picsum.photos/id/1005/200/300",
+            "taskID": "TD102"
+          }
+        ]
+      },
+      {
+        "taskID": "TD103",
+        "taskDescription": "We refocussed the Automotive sales team globally to increase \u000bpersonal customer touch points Tier1 to 60 p.a.",
+        "status": "On Track",
+        "progress": "100",
+        "ownerId": 3,
+        "assigneeID": 6,
+        "comments": [
+          {
+            "commentID": "COMM101",
+            "commentDescription": "The assumption is that we have the technology, the Know-How and the Solutions needed more or less \u000balready available to gain customer value for Tier1-Customers. We need to clarify this first thing when.",
+            "creatorName": "Hermoinie Granger",
+            "creationDate": "2021-10-21T19:10:28+00:00",
+            "profileImage": "https://picsum.photos/id/1005/200/300",
+            "taskID": "TD103"
+          },
+          {
+            "commentID": "COMM102",
+            "commentDescription": "We reconfigured and applied already existing Technology Portfolio within CTG Group successfully \u000bto enlarge our addressable.",
+            "creatorName": "Ron Weasley",
+            "creationDate": "2021-10-21T19:13:05+0000",
+            "profileImage": "https://picsum.photos/id/1005/200/300",
+            "taskID": "TD103"
+          }
+        ]
+      },
+      {
+        "taskID": "TD104",
+        "taskDescription": "We established the needed application engineering knowledge \u000blocally and conducted all product and customer related trainings needed",
+        "status": "On Track",
+        "progress": "50",
+        "ownerId": 5,
+        "assigneeID": 6,
+        "comments": [
+          {
+            "commentID": "COMM101",
+            "commentDescription": "The assumption is that we have the technology, the Know-How and the Solutions needed more or less \u000balready available to gain customer value for Tier1-Customers. We need to clarify this first thing when.",
+            "creatorName": "Drako Malfoy",
+            "creationDate": "2021-10-21T19:10:28+00:00",
+            "profileImage": "https://picsum.photos/id/1005/200/300",
+            "taskID": "TD104"
+          },
+          {
+            "commentID": "COMM102",
+            "commentDescription": "We reconfigured and applied already existing Technology Portfolio within CTG Group successfully \u000bto enlarge our addressable.",
+            "creatorName": "Harry Potter",
+            "creationDate": "2021-10-21T19:13:05+0000",
+            "profileImage": "https://picsum.photos/id/1005/200/300",
+            "taskID": "TD104"
+          }
+        ]
+      },
+      {
+        "taskID": "TD105",
+        "taskDescription": "We increased our customer penetration rate to 30% p.a. for TOP5-Tier 1 \u000bwith existing Power Management solutions in average",
+        "status": "On Track",
+        "progress": "50",
+        "ownerId": 1,
+        "assigneeID": 6,
+        "comments": [
+          {
+            "commentID": "COMM101",
+            "commentDescription": "The assumption is that we have the technology, the Know-How and the Solutions needed more or less \u000balready available to gain customer value for Tier1-Customers. We need to clarify this first thing when.",
+            "creatorName": "Felicia Baumgartner",
+            "creationDate": "2021-10-21T19:10:28+00:00",
+            "profileImage": "https://picsum.photos/id/1005/200/300",
+            "taskID": "TD105"
+          },
+          {
+            "commentID": "COMM102",
+            "commentDescription": "We reconfigured and applied already existing Technology Portfolio within CTG Group successfully \u000bto enlarge our addressable.",
+            "creatorName": "Felicia Baumgartner",
+            "creationDate": "2021-10-21T19:13:05+0000",
+            "profileImage": "https://picsum.photos/id/1005/200/300",
+            "taskID": "TD105"
+          }
+        ]
+      },
+      {
+        "taskID": "TD106",
+        "taskDescription": "We increased our customer penetration rate to 30% p.a. for TOP5-Tier2\u000bwith existing Power Management solutions in average",
+        "status": "On Track",
+        "progress": "50",
+        "ownerId": 6,
+        "assigneeID": 6,
+        "comments": [
+          {
+            "commentID": "COMM101",
+            "commentDescription": "The assumption is that we have the technology, the Know-How and the Solutions needed more or less \u000balready available to gain customer value for Tier1-Customers. We need to clarify this first thing when.",
+            "creatorName": "Drako Malfoy",
+            "creationDate": "2021-10-21T19:10:28+00:00",
+            "profileImage": "https://picsum.photos/id/1005/200/300",
+            "taskID": "TD106"
+          },
+          {
+            "commentID": "COMM102",
+            "commentDescription": "We reconfigured and applied already existing Technology Portfolio within CTG Group successfully \u000bto enlarge our addressable.",
+            "creatorName": "Felicia Baumgartner",
+            "creationDate": "2021-10-21T19:13:05+0000",
+            "profileImage": "https://picsum.photos/id/1005/200/300",
+            "taskID": "TD106"
+          }
+        ]
+      }
+]

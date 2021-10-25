@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+//future scope theming and color vars
+$ngx-datatable-selected-active-background: yellow;
+$ngx-datatable-selected-active-background-hover: rgba(yellow, 0.2);
+$app-bg-color: #EAF0F8 !default;
+
+  @import '~@swimlane/ngx-datatable/index.css';
+  @import '~@swimlane/ngx-datatable/themes/material.scss';
+  @import '~@swimlane/ngx-datatable/assets/icons.css';
+
+
+  @font-face {
+    font-family: "Oxygen";
+    src: local("Gibson"), url(./assets/fonts/gibson-font/Gibson-Regular.ttf) format("truetype");
+}
+body {
+    font-family: 'Gibson', system-ui,"Segoe UI",;
+    background-color: $app-bg-color;
+}
+

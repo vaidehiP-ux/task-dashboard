@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "Felicia Baumgartner",
+      "email": "f.baumgartner@loremipsum.com",
+      "profileImage": "https://picsum.photos/id/1005/200/300"
+    },
+    {
+      "id": 2,
+      "name": "Drako Malfoy",
+      "email": "d.malfoy@loremipsum.com",
+      "profileImage": "https://picsum.photos/id/1005/200/300"
+    },
+    {
+      "id": 3,
+      "name": "Harry Potter",
+      "email": "h.potter@loremipsum.com",
+      "profileImage": "https://picsum.photos/id/1005/200/300"
+    },
+    {
+      "id": 4,
+      "name": "Hermoinie Granger",
+      "email": "h.granger@loremipsum.com",
+      "profileImage": "https://picsum.photos/id/1005/200/300"
+    },
+    {
+      "id": 5,
+      "name": "Ron Weasley",
+      "email": "r.weasley@loremipsum.com",
+      "profileImage": "https://picsum.photos/id/1005/200/300"
+    },
+    {
+      "id": 6,
+      "name": "Albus Dumbeldore",
+      "email": "a.dumbeldore@loremipsum.com",
+      "profileImage": "https://picsum.photos/id/1005/200/300"
+    }
+  ]

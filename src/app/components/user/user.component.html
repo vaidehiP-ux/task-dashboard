@@ -1,0 +1,20 @@
+<div class="user-container mx-1">
+    <div class="card">
+        <h5 class="card-header ms-3 mt-3">OWNER</h5>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-2 mx-3">
+                    <div class="img-wrapper">
+                      <img [src]="activeUser.profileImage" class="user">
+                    </div>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="user-wrapper py-3">
+                      <h5 class="card-title name">{{activeUser.name}}</h5>
+                      <small class="card-subtitle mb-2 text-muted email">{{activeUser.email}}</small>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>

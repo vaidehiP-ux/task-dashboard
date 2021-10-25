@@ -1,0 +1,27 @@
+.container {
+    max-width: 100% !important; //default flex behavior - typical max-with per screens. Current behavior This is supressed to get full screen width  
+    .row {
+        .col {
+            .card {
+                border: none !important; // Removed border for design requirements
+                .card-body {
+                    padding: 0px;
+                    margin: 1px;
+                    border: none !important; // Removed border for design requirements
+                    .carousal {
+                        .carousal-inner {
+                            position: relative;
+                            max-height: 600px;
+                            .carousal-item {
+                                .carousal-caption{
+                                    top: 0;
+                                    bottom: auto;
+                                }
+                            } 
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

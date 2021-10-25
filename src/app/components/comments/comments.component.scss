@@ -1,0 +1,75 @@
+.card-header {
+    text-align: left;
+    font: normal normal 600 13px/16px Gibson;
+    letter-spacing: 0.39px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+    background-color: white;
+    border-bottom: none !important;
+    .bg-secondary {
+        background: #537BCC !important;
+        .fa-tasks {
+            color: white;
+            size: 16px;
+          }
+    }
+}
+.card-body {
+    input {
+        text-align: left;
+        font: normal normal normal 15px/18px Gibson;
+        letter-spacing: 0px;
+        color: #80899B;
+        opacity: 1;font-size: 15px;
+    }
+    .form-control {
+        color: #80899B !important;
+        font-size: 15px !important;
+        option {
+            color: #80899B !important;
+            text-align: left;
+            font: normal normal normal 15px/18px Gibson;
+            letter-spacing: 0px;
+            opacity: 1;
+        }
+    }
+    .img-wrapper {
+        display: inline-block;
+        .user {
+            
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin: 8px;
+            object-fit: cover;
+          }
+    }
+    .comment-wrapper {
+        display: inline-block;
+        .name {
+            text-align: left;
+            font: normal normal 600 13px/15px Gibson;
+            letter-spacing: 0px;
+            color: #495365;
+            opacity: 1;
+            font-size: 13px;
+        }
+        .date {
+            text-align: left;
+            font: normal normal 600 10px/12px Gibson;
+            letter-spacing: 0px;
+            color: #97AFB9;
+            opacity: 1;
+            font-size: 10px;
+        }
+        .description {
+            text-align: left;
+            font: normal normal normal 13px/15px Gibson;
+            letter-spacing: 0px;
+            color: #495365;
+            opacity: 1;
+            font-size: 13px;
+        }
+    }
+}

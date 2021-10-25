@@ -1,0 +1,55 @@
+<div class="row px-3">
+    <div class="col px-0 m-1">
+        <div *ngIf="comments">
+            <app-comments [taskComments]="comments" (messageEvent)="receiveMessage($event)"></app-comments>
+            <div class="actions p-1 mt-1 mx-1 row">
+                <div class="col">
+                    <button type="button" class="btn btn-brand-style mx-1 py-2"><i class="fab fa-bandcamp fa-2x"></i></button><span class="action-group"><span>Brand Style</span></span>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-color-pallete mx-1 py-2"><i class="fas fa-palette fa-2x"></i></button><span class="action-group"><span>Color Pallete</span></span>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-fabric-switches mx-1 py-2"><i class="fab fa-phabricator fa-2x"></i></button><span class="action-group"><span>Fabric switches</span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col px-0 m-1">
+        <div class="card">
+            <div class="card-body">
+                <div class="card">
+                    <h5 class="card-header">KEY RESULTS <span class="badge bg-secondary"><i class="fas fa-tasks pe-2"></i>{{taskList.length}}</span></h5> 
+                    <div class="card-body p-0">
+                        <ngx-datatable
+                        class="material bootstrap color"
+                        [rows]="taskList"
+                        [loadingIndicator]="loadingIndicator"
+                
+                        [columnMode]="'force'"
+                        [headerHeight]="40"
+                        [footerHeight]="40"
+                        [limit]="3"
+                        rowHeight="auto"
+                        [reorderable]="reorderable">
+                            <ngx-datatable-column prop="taskDescription" [width]="450"></ngx-datatable-column>
+                            <ngx-datatable-column name="Progress" [width]="100">
+                                <ng-template ngx-datatable-cell-template let-value="value" let-row="taskList">
+                                    <div class="progress" style="height: 5px;">
+                                        <div class="progress-bar" role="progressbar" [style.width.%]="value" [attr.aria-valuenow]="value" aria-valuemin="0" aria-valuemax="100" style="background-color: #537BCC !important"></div>
+                                    </div>
+                                    <p>{{value}}%</p>
+                                </ng-template>
+                            </ngx-datatable-column>
+                        </ngx-datatable>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
